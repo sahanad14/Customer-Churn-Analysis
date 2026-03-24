@@ -58,55 +58,64 @@ This approach ensures balanced and meaningful classification of customers.
 
 ### 🔹 Main Dashboard
 
-![Dashboard](dashboard/dashboard.png)
+<img width="1217" height="707" alt="Dashboard" src="https://github.com/user-attachments/assets/9fe5a66a-ae9c-4e53-991c-49d6bb925a1f" />
+
 
 ---
 
 ### 🔹 Customer Risk Distribution
 
-![Risk Distribution](dashboard/Customer Risk Distribution.png)
+<img width="807" height="662" alt="Customer risk distribution" src="https://github.com/user-attachments/assets/4b44841b-85f9-44ee-9705-5d0b6b6b7756" />
+
 
 ---
 
 ### 🔹 Churn Rate by Risk Level
 
-![Churn Rate by Risk](dashboard/Churn Rate by Risk.png)
+<img width="805" height="662" alt="churn rate by risk level" src="https://github.com/user-attachments/assets/566cf34a-28d6-4ecc-a13e-de8243ef3052" />
+
 
 ---
 
 ### 🔹 Contract vs Churn
 
-![Contract](dashboard/Contract Vs Churn.png)
+<img width="758" height="555" alt="Contract Vs Churn" src="https://github.com/user-attachments/assets/52788ae5-a920-4367-aead-51bf282df8d8" />
+
 
 ---
 
 ### 🔹 Monthly Charges vs Churn
 
-![Charges](dashboard/Monthly Charges Vs Churn.png)
+<img width="788" height="558" alt="Monthly Charges Vs Churn" src="https://github.com/user-attachments/assets/7ef736c9-f362-4dd7-8b7a-1488871b90fd" />
+
 
 ---
 
 ### 🔹 Tenure vs Churn
 
-![Tenure](dashboard/Tenure Vs Churn.png)
+<img width="822" height="558" alt="Tenure Vs Churn" src="https://github.com/user-attachments/assets/5a6d77cc-2bbc-46f2-ac04-29d2d10bd147" />
+
 
 ---
 
 ### 🔹 Payment Method vs Churn
 
-![Payment](dashboard/Payment Vs Churn.png)
+<img width="808" height="631" alt="Payment Vs Churn" src="https://github.com/user-attachments/assets/f67a298e-1d8e-4885-9d25-3df33b25367c" />
+
 
 ---
 
 ### 🔹 Feature Importance
 
-![Feature](dashboard/Features Influencing Churn.png)
+<img width="1086" height="546" alt="Features Influencing Churn" src="https://github.com/user-attachments/assets/cc999a0d-b6d1-41a7-869e-f56cdc32c811" />
+
 
 ---
 
 ### 🔹 Confusion Matrix
 
-![Confusion](dashboard/Confusion Matrix.png)
+<img width="747" height="557" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/62c7947a-aa2d-4ccb-a721-ce449b6f65f6" />
+
 
 ---
 
