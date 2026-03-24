@@ -1,8 +1,56 @@
-# 🚀 Customer Churn Analysis & Prediction
+# 🚀 Customer Churn Prediction & Analysis (ML + Power BI)
 
 ## 📌 Project Overview
 
-This project analyzes customer behavior and predicts churn using Machine Learning. It also includes an interactive Power BI dashboard to visualize insights and identify high-risk customers.
+This project focuses on predicting customer churn using Machine Learning and delivering business insights through an interactive Power BI dashboard.
+
+The solution identifies high-risk customers and helps businesses take proactive actions to improve customer retention.
+
+---
+
+## 🎯 Objectives
+
+* Analyze customer behavior and churn patterns
+* Build a predictive model for churn probability
+* Segment customers into Low, Medium, and High Risk
+* Create an interactive dashboard for decision-making
+
+---
+
+## 🛠 Tech Stack
+
+* **Python**: Pandas, NumPy, Matplotlib
+* **Machine Learning**: Scikit-learn, XGBoost
+* **Visualization**: Power BI
+
+---
+
+## 📊 Key Results
+
+* Total Customers: **7032**
+* Churned Customers: **1869**
+* Churn Rate: **27%**
+* High Risk Customers: **243**
+
+---
+
+## 📈 Model Performance
+
+* Model Used: **XGBoost Classifier**
+* Accuracy: ~**80–85%**
+* Output: Churn Probability (0–1)
+
+---
+
+## 🧠 Risk Segmentation
+
+Customers are classified into risk categories using percentile-based segmentation on predicted churn probability:
+
+* 🟢 Low Risk
+* 🟠 Medium Risk
+* 🔴 High Risk
+
+This approach ensures balanced and meaningful classification of customers.
 
 ---
 
@@ -10,98 +58,95 @@ This project analyzes customer behavior and predicts churn using Machine Learnin
 
 ### 🔹 Main Dashboard
 
-<img width="1217" height="707" alt="Dashboard" src="https://github.com/user-attachments/assets/64aac1f2-2731-4da2-95bc-51943a6f614e" />
+![Dashboard](dashboard/dashboard.png)
 
+---
 
+### 🔹 Customer Risk Distribution
+
+![Risk Distribution](dashboard/Customer Risk Distribution.png)
+
+---
+
+### 🔹 Churn Rate by Risk Level
+
+![Churn Rate by Risk](dashboard/Churn Rate by Risk.png)
 
 ---
 
 ### 🔹 Contract vs Churn
 
-<img width="758" height="555" alt="Contract Vs Churn" src="https://github.com/user-attachments/assets/11440f75-cd8b-4f11-8b41-1c787af1aa54" />
+![Contract](dashboard/Contract Vs Churn.png)
 
 ---
 
 ### 🔹 Monthly Charges vs Churn
 
-<img width="788" height="558" alt="Monthly Charges Vs Churn" src="https://github.com/user-attachments/assets/a2fcdb5d-647a-45ae-8eff-3fd51f18e50f" />
-
+![Charges](dashboard/Monthly Charges Vs Churn.png)
 
 ---
 
 ### 🔹 Tenure vs Churn
 
-<img width="822" height="558" alt="Tenure Vs Churn" src="https://github.com/user-attachments/assets/d2cc96df-abad-420f-9497-6253dc59e900" />
-
+![Tenure](dashboard/Tenure Vs Churn.png)
 
 ---
 
 ### 🔹 Payment Method vs Churn
 
-<img width="808" height="631" alt="Payment Vs Churn" src="https://github.com/user-attachments/assets/1427bb44-c86e-4fde-8c2f-0e9530c926b3" />
-
+![Payment](dashboard/Payment Vs Churn.png)
 
 ---
 
 ### 🔹 Feature Importance
 
-<img width="1086" height="546" alt="Features Influencing Churn" src="https://github.com/user-attachments/assets/ed3e3cda-92fa-4d5f-bca9-c7f7dc060e6c" />
-
+![Feature](dashboard/Features Influencing Churn.png)
 
 ---
 
 ### 🔹 Confusion Matrix
 
-<img width="747" height="557" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/d1de6f4b-fecf-430e-9713-3d2a5b611ee4" />
-
-
----
-
-## 🎯 Objectives
-
-* Analyze customer churn behavior
-* Predict churn probability using ML
-* Segment customers into risk levels
-* Build interactive dashboard
+![Confusion](dashboard/Confusion Matrix.png)
 
 ---
 
-## 🛠 Tech Stack
+## 📌 Key Insights
 
-* Python (Pandas, NumPy, Matplotlib)
-* Scikit-learn, XGBoost
-* Power BI
-
----
-
-## ⚙️ Workflow
-
-1. Data Cleaning
-2. EDA
-3. Model Building (XGBoost)
-4. Churn Prediction
-5. Risk Segmentation
-6. Dashboard Creation
+* Month-to-month customers churn ~2.5x more than long-term contracts
+* Customers with low tenure are more likely to churn
+* High-risk customers show significantly higher churn probability
+* Monthly charges influence customer churn behavior
 
 ---
 
-## 📈 Key Insights
+## 📌 Important Features
 
-* Month-to-month customers churn ~2.5x more
-* Low tenure → higher churn
-* High-risk customers need immediate action
+Top factors influencing churn:
+
+* Tenure
+* Monthly Charges
+* Contract Type
 
 ---
 
-## 🧠 Model Details
+## 💡 Business Recommendations
 
-* Model: XGBoost
-* Output: Churn Probability
-* Risk Levels:
+* Target high-risk customers with retention strategies
+* Offer discounts for month-to-month customers
+* Encourage long-term contracts
+* Focus on early-stage customers (low tenure)
 
-  * 🟢 Low Risk
-  * 🟠 Medium Risk
-  * 🔴 High Risk
+---
+
+## ⚙️ Project Workflow
+
+1. Data Cleaning & Preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature Engineering
+4. Model Building (XGBoost)
+5. Churn Probability Prediction
+6. Risk Segmentation
+7. Power BI Dashboard Creation
 
 ---
 
@@ -110,27 +155,42 @@ This project analyzes customer behavior and predicts churn using Machine Learnin
 ```
 Customer-Churn-Analysis/
 │── data/
+│    └── cleaned_data.csv
 │── notebooks/
+│    └── eda.ipynb
 │── models/
+│    └── churn_model.pkl
 │── dashboard/
+│    └── dashboard.png
+│── requirements.txt
 │── README.md
 ```
 
 ---
 
-## 💡 Business Impact
+## 🚀 How to Run
 
-* Helps identify high-risk customers
-* Improves retention strategies
-* Supports decision-making
+1. Clone the repository
+2. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+3. Open Jupyter Notebook
+4. Run `eda.ipynb`
+5. Train model and generate predictions
+6. Open Power BI dashboard
 
 ---
 
 ## 👩‍💻 Author
 
-Sahana D
+**Sahana D**
+Aspiring Data Scientist
 
 ---
 
-⭐ If you like this project, give it a star!
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
 
